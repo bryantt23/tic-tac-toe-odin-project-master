@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html * {
+        font-size: 40px;
+      }
+      .box {
+        display: inline-block;
+        text-align: center;
+        border: 1px solid black;
+        min-width: 50px;
+        min-height: 50px;
+        background-color: aqua;
+      }
+      /* https://stackoverflow.com/questions/639815/how-to-disable-all-div-content */
+      .disabled-div {
+        pointer-events: none;
+        opacity: 0.4;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <div id="game-board"></div>
+    <div id="player-turn"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
